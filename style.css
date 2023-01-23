@@ -1,22 +1,93 @@
 /* normalization */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
 
 /*omar navbar*/
 
-
 /* toni  sec*/
 
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.text-hero-section {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-heo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-side {
+  padding: 5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section-2 {
+  display: flex;
+  /* border: 2px solid blue; */
+  justify-content: center;
+}
+
+.btn-hero {
+  border: 1px solid blue;
+  color: white;
+  background-color: blue;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+}
+
+.our-client-text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30rem;
+}
+
+.urban-logo {
+  width: 170px;
+}
+
+.our-clients-logos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.amazon-logo {
+  width: 150px;
+}
+
+.airbnb-logo {
+  width: 150px;
+}
+
+.title-clitent {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-clitent-text {
+  line-height: 2rem;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 /* noa sec */
 
-
 /* omar sec */
-
 
 /* dania footer */
