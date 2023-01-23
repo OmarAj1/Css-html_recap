@@ -14,6 +14,40 @@
 
 
 /* noa sec */
+div.cards-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.cards-item{
+    display: inline-flex;
+    flex-direction: column;
+    border: solid black;
+    height: 50%;
+
+}
+div.card-item1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: row1-start;
+    grid-row-end: 2;
+    background-color: pink;
+}
+div.card-item2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: row1-start;
+    grid-row-end: 2;
+    background-color: pink;
+
+}
+div.card-item3{
+    
+}
+div.card-item4{
+    
+}
 
 
 /* omar sec */
