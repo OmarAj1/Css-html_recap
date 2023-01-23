@@ -12,10 +12,31 @@
 
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.big-hero-img {
+  position: relative;
+  left: 450px;
+  z-index: 1;
+}
+
+.elipsa {
+  position: relative;
+  right: 23rem;
+  bottom: 24rem;
+}
+
+.rectangle {
+  position: relative;
+  top: 7rem;
 }
 
 .text-hero-section {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5rem;
+  color: rgb(78, 74, 74);
 }
 
 .main-heo-section {
@@ -44,11 +65,13 @@ span {
   border: 1px solid blue;
   color: white;
   background-color: blue;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   border-radius: 50px;
   font-size: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
 }
 
 .our-client-text {
@@ -77,7 +100,7 @@ span {
 
 .title-clitent {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -85,6 +108,7 @@ span {
   line-height: 2rem;
   font-size: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(78, 74, 74);
 }
 /* noa sec */
 
