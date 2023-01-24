@@ -174,10 +174,10 @@ span {
 
 #section-1 img {
     position: relative;
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     /* top: 18rem; */
-    left: 54rem;
+    /* left: 54rem; */
     z-index: -1;
 }
 
@@ -185,7 +185,7 @@ span {
     display: grid;
     position: absolute;
     top: 1rem;
-    left: 40rem;
+    /* left: 40rem; */
     grid-template-rows: 0.1fr 1fr 0.1fr 0.1fr 1fr;
     grid-template-columns: 1fr 0.1fr 1fr 1fr;
     text-align: center;
